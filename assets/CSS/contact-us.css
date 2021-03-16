@@ -1,0 +1,743 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+/* CSS HEX */
+:root{
+    --platinum: #e5e7ebff;
+    --silver-sand: #bdc1c6ff;
+    --bottle-green: #116a56ff;
+    --polished-pine: #599f94ff;
+    --sinopia: #c85531ff;
+    --jet: #333332ff;
+}
+
+.header-div{
+  background-color: white;
+}
+
+.user-icon{
+
+  margin-right: 10px;
+  background-color: orangered  ;
+}
+
+.user-icon:hover{
+  color: black;
+}
+
+/* .fa-user-circle{
+ margin-right: 5px;
+} */
+/* .fa-user-alt{
+} */
+
+.btn-account {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: orangered;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  margin-top: 20px;
+  border: 0px;
+}
+
+.btn-account:hover {
+  background: orangered;
+  color: black;
+  background-image: -webkit-linear-gradient(top, orangered, orangered);
+  background-image: -moz-linear-gradient(top, orangered, orangered);
+  background-image: -ms-linear-gradient(top, orangered, orangered);
+  background-image: -o-linear-gradient(top, orangered, orangered);
+  background-image: linear-gradient(to bottom, orangered, orangered);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 99px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  height: 30px;
+  width: 30px;;
+}
+
+#myBtn:hover {
+  background-color: white; /* Add a dark-grey background on hover */
+}
+
+.fa-chevron-up{
+  position: relative;
+right: 8px;
+bottom: 15px;}
+
+.fa-chevron-up:hover{
+ color: orangered;
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+  background-color: orangered;
+}
+
+
+body{
+    /* background: var(--platinum); */
+    background-color: white;
+    text-align: center;
+}
+/*Header Start*/
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+input[type=search]{
+    width: 326.34px;
+    height: 38px;
+    border-radius: 5px;
+    padding: 1px 5px;
+    background: rgba(0,0,0,0);
+}
+input[type=search]:active,input[type=search]:focus{
+    border-color: var(--sinopia) !important;
+}
+
+/* .search-bar{
+  width: 20%;
+} */
+
+
+.search-btn{
+    width: 125px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0);
+    color: var(--jet);
+    font-size: 20px;
+    font-weight: 600;
+    height: 38px;
+    padding: 3px 12px;
+    border-width: 3px;
+    border-color: var(--sinopia);
+    margin-left: 10px;
+    outline: none;
+}
+.search-btn:hover{
+    background-color: var(--sinopia);
+    border: none;
+}
+
+.fa-search{
+  color: white;
+}
+/* .fa-user,.fa-shopping-cart{
+    font-size: 25px;
+    color: white;
+}
+.fa-shopping-cart{
+    margin-left: 25px;
+}
+.login,.cart{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: var(--jet);
+    text-decoration: none;
+}
+.login:hover,.cart:hover{
+    text-decoration: none;
+    color: var(--sinopia);
+}
+i:hover{
+    color: var(--sinopia);
+} */
+/*Header End*/
+/*Dropdown Bar Start*/
+.dropdown-bar{
+    background-color: black;
+    border: solid orangered;
+    margin-top: 10px;
+    height: 40px;
+    margin-bottom: 20px;;
+    width: 95%;
+    margin-left: 30px;
+    border-radius: 19px;
+}
+.dropdown{
+    margin-right: 30px;
+    width: 120px;
+}
+
+
+
+.dropdown-toggle,.dropdown-item{
+    background: rgba(0,0,0,0);
+    border-width: 0px;
+    margin-right: 50px;
+    color: var(--jet);
+}
+.dropdown-menu{
+    background: rgb(255,255,255);
+    border-width: 0px;
+    margin-right: 50px;
+    color: var(--jet);
+}
+
+.dropdown-toggle:hover,.dropdown-toggle:active{
+  background-color: orangered;
+}
+
+
+/* .dropdown-toggle:hover,.dropdown-toggle:active,.dropdown-toggle:focus{
+    /* color: var(--sinopia) !important; */
+    /* background-color: transparent !important;
+    border: transparent !important;
+} */ */
+.dropdown-item:hover,.dropdown-item:active,.dropdown-item:focus{
+    color: var(--sinopia) !important;
+    background-color: transparent !important;
+    border: transparent !important;
+}
+/*Dropdown Bar End*/
+.text-effect{
+    animation: blinktext 1s infinite;
+    color: var(--sinopia);
+}
+@keyframes blinktext{
+    0%{
+       filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(180deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+
+
+.footer-div{
+  background-color: #e5e7eb;
+  border-bottom: solid;
+  border-top: solid orangered;
+  /* text-align: center; */
+}
+
+.footer-headings{
+  color: black;
+  text-align: center;
+
+}
+
+.footer-link{
+  color: black;
+  text-decoration: none;
+
+
+}
+
+.footer-col{
+  margin-top: 50px;
+width: 15%;
+position: relative;
+left: 210px;
+margin-bottom: 20px;
+}
+
+.footer-list{
+  list-style-type:none;
+/* width: 50%; */
+}
+.footer-li{
+  margin-bottom: 5px;
+  /* width: 50%; */
+  /* text-align: center; */
+
+}
+
+.footer-col-2{
+  margin-left: 50px;
+}
+
+.footer-col-3{
+  margin-left: 10px;
+}
+.footer-col-4{
+  margin-left: 0px;
+}
+
+.footer-headings-4{
+  /* position: relative; */
+  /* right: 20px; */
+  margin-left: 30px;
+}
+
+.footer-headings-3{
+  /* position: relative;
+  right: 35px; */
+  margin-left: 35px;
+}
+
+/* .footer-headings-1{
+    margin-left: 20px;
+} */
+
+.footer-li-1,.footer-li-2{
+  position: relative;
+  right: 20px;
+}
+
+.footer-row{
+  margin-right:0px;
+}
+@media only screen and (max-width: 320px) {
+
+  }
+
+
+
+
+  /* form { */
+    /* This bit sets up the horizontal layout */
+    /* display:flex;
+    flex-direction:row;
+    width: 500px;
+    height: 40px; */
+    /* This bit draws the box around it */
+    /* border:1px solid grey; */
+
+    /* I've used padding so you can see the edges of the elements. */
+    /* padding:2px;
+  } */
+
+  .input-field {
+    /* Tell the input to use all the available space */
+    flex-grow:2;
+    /* And hide the input's outline, so the form looks like the outline */
+     border:none;
+    /* width: 500px; */
+ 
+
+  } */
+
+  input:focus { */
+    /* removing the input focus blue box. Put this on the form if you like. */
+     outline: none;
+  }
+  
+
+  /* button {
+    /* Just a little styling to make it pretty */
+    /* border:0px solid blue;
+    background:blue;
+    color:white;
+
+  } */
+
+
+  .input-container{
+    width: 600px;
+    height: 35px;
+    border: 1px solid #a9a9a9;
+    display: inline-block;
+    margin-top: 20px;
+}
+.input-container input:focus, .input-container input:active {
+    outline: none;
+}
+.input-container input {
+    width: 80%;
+
+    border: none;
+}
+
+.input-container button {
+    float: right;
+    height: 35px;
+}
+
+.input-button{
+  background-color: black;
+  width: 40px;
+}
+
+.input-field{
+  width: 555px;
+  height: 30px;
+  margin-left: 0px;;
+  /* padding-left: 20px; */
+}
+
+.btn-login{
+  -webkit-border-radius: 3;
+  margin-top: 20px;
+  margin-left: 40px;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: orangered;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  border: 0px;
+
+}
+
+.btn-login:hover {
+  background: orangered;
+  text-decoration: none;
+   color: black;
+}
+
+.user-cart{
+  font-size: 20px;
+  margin-right: 10px;
+
+  background-color: orangered  ;
+}
+
+.user-cart:hover{
+  color: black;
+}
+
+input[type=text]:focus{
+  height: 35px;
+border: solid orangered 3px ;
+}
+
+
+ /* Contact us */
+.outer-container {
+   text-align: center;
+   position: relative;
+   width: 94%;
+   color: #000;
+   background-color: white;
+   border-radius: 1em;
+   left: 3%;
+   border: solid 1px white;
+   /* margin-bottom: 100px; */
+   padding-bottom: 3em;
+   
+   font-family: 'Roboto', sans-serif;
+}
+
+.outer-container > h1 {
+   margin: 1em 1em 0.4em ;
+   
+}
+
+.outer-container > h4 {
+   margin: 0.5em 1em 1em;
+   /* font-size: 0.77em;
+   font-weight: 400; */
+}
+
+.inner-container {
+   position: inherit;
+   text-align: left;
+   color: #ffffff;
+   background: #000;
+   border-radius: inherit;
+   width: 80%;
+   left: 10%;
+}  
+
+form > h3 {
+   /* font-weight: 700;
+   font-size: 0.68em; */
+   margin: 1em 5.5% 0.5em;
+   grid-row: 1;
+   grid-column: 1 / span 2;
+}
+
+
+/* For the Map */
+#map {
+    display: none;
+    position: inherit;
+    border-radius: inherit;
+    height: 500px;
+    width: 80%;
+    left: 10%;
+}
+
+.map-text {
+  color: #000;
+}
+
+/* Form */
+
+form {
+   display: grid;
+   grid-template-columns: 1fr;
+}
+
+.label-message, textarea, .submit-button, form > h6 {
+  grid-column: 1;
+}
+
+/* Labels */
+form > label {
+   font-size: 1.5em;
+   font-weight: 300;
+   margin: 1em 7%;
+}
+
+.label-message {
+   grid-row: 8;
+   margin-left: 7%;
+}
+
+.label-mail, .label-phone {
+   padding-bottom: 0;
+   margin-bottom: 0.8em;
+   /* height: 14px; */
+}
+
+/* Inputs */
+
+.form-input, textarea {
+   background-color: rgb(245, 245, 245);
+   border: none;
+   border-radius: 0.3em;
+   margin-bottom: 2em;
+}
+
+.form-input:focus , textarea:focus{
+  outline: none;
+  border: 2px solid;
+  border-color: #ff4500;
+}
+
+.form-input{
+   width: 65%;
+   margin-left: 7%;
+   font-size: 0.7em;
+   padding: 1em;
+}
+
+/* #name:focus {
+  font-size: 0.7em;
+  padding: 1em;
+  height: 54.56px;
+  outline: none;
+  border: 2px solid;
+  border-color: #ff4500;
+} */
+
+textarea {
+   position: inherit;
+   width: 75%;
+   grid-row: 9;
+   margin-left: 7%;
+   resize: none;
+   font-size: 0.8em;
+   padding: 1em;
+}
+
+/* Buttons */
+
+/* button {
+   color: #ffffff;
+   border: none;
+} */
+
+/* .fa-map-marker,.fa-envelope,.fa-phone-alt {
+   font-size: 1.8em;
+   font-weight: 100;
+   padding: 0.7em;
+} */
+
+.fa-map-marker-alt,.fa-envelope,.fa-phone-alt{
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+
+  .outer-container > button {
+   background-color: black;
+   color:white;
+   border: #000 4px solid;
+   border-radius: 4em;
+   padding: 1em;
+   font-size: 23px;
+   margin: 2em 0.1em 3em;
+   
+  }
+
+.outer-container > button:hover {
+   background-color:orangered;
+   border: orangered 4px solid;
+   color: white;
+   cursor: pointer;
+}
+
+.outer-container > button:focus {
+   background-color: orangered
+   color: white;
+   border: none;
+   outline: none;
+}
+
+/* .button-part2 {
+  display: none;
+} */
+
+.phone-button {
+  background-color: black;
+  color: orangered;
+  text-decoration: none;
+}
+
+.phone-button:hover{
+  color: white;
+  text-decoration: none;
+  
+}
+
+
+
+.submit-button {
+   border-radius: 0.8em;
+   font-size: 0.8em;
+   background-color: white;
+   color: #000;
+   grid-row: 10;
+   width: 200px;
+   margin: 2em 38% ;
+   padding: 1em;
+}
+
+.submit-button:hover {
+   background-color: #ff4500;
+   color: #ffffff;
+   cursor: pointer;
+   outline: none;
+}
+
+/* Media Queries */
+@media screen and (min-width: 1100px) {
+   .inner-container {
+      width: 60%;
+      left: 20%;
+   }
+}
+
+@media screen and (min-width: 900px) {
+   .inner-container {
+     width: 60%;
+      left: 20%;
+   }
+}
+
+@media screen and (min-width: 620px) {
+  
+  .inner-container {
+     width: 80%;
+      left: 10%;
+   }
+
+  form {
+    grid-template-columns: repeat(2, 1fr);
+   }
+
+  form > label {
+    margin-left: 11%;
+  }
+
+   .label-message {
+    margin-left: 7%;
+    grid-row: 2;
+    grid-column: 2;
+   }
+
+   textarea {
+    grid-row: 3 / span 5;
+    grid-column: 2;
+    width: 65%;
+   }
+
+   form > h6 {
+    grid-row: 1;
+    grid-column: 1 / span 2;
+   } 
+
+   .submit-button {
+    grid-row: 8;
+    grid-column: 1/ span 2;
+   }
+
+   input {
+     margin-left: 11%;
+     width: 80%;
+   }
+}
+
+@media only screen and (orientation: landscape) {
+   .button-part2 {
+    display: none;
+  }
+
+  .button-part1 {
+    display: inline-block;
+  }
+
+  .outer-container > button {
+   padding: 1em 5.2em 1.5em;
+   font-size: 0.6em;
+   margin: 2em 0.1em 3em;
+  }
+
+}
+
+/*
+@media (min-width: 400px) {
+  .outer-container {
+      width: 90%;
+      left: 5%;
+  }
+
+   input {
+      width: 50%;
+   }
+   
+   textarea {
+      width: 50%;
+   }
+}
+
+@media (min-width: 385px) {
+   input {
+      width: 45%;
+   }
+   
+   textarea {
+      width: 45%;
+   }
+} */

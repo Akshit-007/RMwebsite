@@ -1,0 +1,925 @@
+/* CSS HEX */
+:root{
+    --platinum: #e5e7ebff;
+    --silver-sand: #bdc1c6ff;
+    --bottle-green: #116a56ff;
+    --polished-pine: #599f94ff;
+    --sinopia: #c85531ff;
+    --jet: #333332ff;
+}
+
+.header-div{
+  background-color: white;
+}
+
+
+.user-icon{
+
+  margin-right: 10px;
+  background-color: orangered  ;
+}
+
+.user-icon:hover{
+  color: black;
+}
+
+/* .fa-user-circle{
+ margin-right: 5px;
+} */
+/* .fa-user-alt{
+
+} */
+
+.btn-account {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: orangered;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+  margin-top: 20px;
+}
+
+.btn-account:hover {
+  background: orangered;
+  color: black;
+  background-image: -webkit-linear-gradient(top, orangered, orangered);
+  background-image: -moz-linear-gradient(top, orangered, orangered);
+  background-image: -ms-linear-gradient(top, orangered, orangered);
+  background-image: -o-linear-gradient(top, orangered, orangered);
+  background-image: linear-gradient(to bottom, orangered, orangered);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: white; /* Set a background color */
+  color: black; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 99px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+  height: 30px;
+  width: 30px;;
+}
+
+#myBtn:hover {
+  background-color: white; /* Add a dark-grey background on hover */
+}
+
+.fa-chevron-up{
+  position: relative;
+right: 8px;
+bottom: 15px;}
+
+.fa-chevron-up:hover{
+ color: orangered;
+}
+
+.carousel-control-next-icon,.carousel-control-prev-icon{
+  background-color: orangered;
+}
+
+
+body{
+    /* background: var(--platinum); */
+    background-color: white;
+    text-align: center;
+}
+/*Header Start*/
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-left: 100px;
+}
+input[type=search]{
+    width: 326.34px;
+    height: 38px;
+    border-radius: 5px;
+    padding: 1px 5px;
+    background: rgba(0,0,0,0);
+}
+input[type=search]:active,input[type=search]:focus{
+    border-color: var(--sinopia) !important;
+}
+
+/* .search-bar{
+  width: 20%;
+} */
+
+
+.search-btn{
+    width: 125px;
+    border-radius: 5px;
+    background: rgba(0,0,0,0);
+    color: var(--jet);
+    font-size: 20px;
+    font-weight: 600;
+    height: 38px;
+    padding: 3px 12px;
+    border-width: 3px;
+    border-color: var(--sinopia);
+    margin-left: 10px;
+    outline: none;
+}
+.search-btn:hover{
+    background-color: var(--sinopia);
+    border: none;
+}
+
+.fa-search{
+  color: white;
+}
+
+/* .fa-user,.fa-shopping-cart{
+    font-size: 25px;
+    color: white;
+}
+.fa-shopping-cart{
+    margin-left: 25px;
+}
+.login,.cart{
+    font-size: 18px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: var(--jet);
+    text-decoration: none;
+}
+.login:hover,.cart:hover{
+    text-decoration: none;
+    color: var(--sinopia);
+}
+i:hover{
+    color: var(--sinopia);
+} */
+/*Header End*/
+/*Dropdown Bar Start*/
+.dropdown-bar{
+    background-color: black;
+    border: solid orangered;
+    margin-top: 10px;
+    height: 40px;
+    margin-bottom: 20px;;
+    width: 95%;
+    margin-left: 30px;
+    border-radius: 19px;
+}
+.dropdown{
+    margin-right: 30px;
+    width: 120px;
+}
+
+
+
+.dropdown-toggle,.dropdown-item{
+    background: rgba(0,0,0,0);
+    border-width: 0px;
+    margin-right: 50px;
+    color: var(--jet);
+}
+.dropdown-menu{
+    background: rgb(255,255,255);
+    border-width: 0px;
+    margin-right: 50px;
+    color: var(--jet);
+}
+
+.dropdown-toggle:hover,.dropdown-toggle:active{
+  background-color: orangered;
+}
+
+
+/* .dropdown-toggle:hover,.dropdown-toggle:active,.dropdown-toggle:focus{
+    /* color: var(--sinopia) !important; */
+    /* background-color: transparent !important;
+    border: transparent !important;
+} */ */
+.dropdown-item:hover,.dropdown-item:active,.dropdown-item:focus{
+    color: var(--sinopia) !important;
+    background-color: transparent !important;
+    border: transparent !important;
+}
+/*Dropdown Bar End*/
+.text-effect{
+    animation: blinktext 1s infinite;
+    color: var(--sinopia);
+}
+@keyframes blinktext{
+    0%{
+       filter: hue-rotate(0deg);
+    }
+    50%{
+        filter: hue-rotate(180deg);
+    }
+    100%{
+        filter: hue-rotate(360deg);
+    }
+}
+
+.carousel-div{
+width: 94%;
+height: 400px;
+margin-left: 40px;
+}
+
+.d-block{
+  width: 700px;
+  height: 400px;
+}
+
+.books-card,.big-card,.top-sellers-card,.e-gift-card,.deals-week-card,
+.books-card-weekly,.e-gift-card,.clearance-card,.featured-authors-card,.benefits-card{
+ background-color: #e5e7eb;
+ margin-top: 30px;
+ width: 95%;
+ position: relative;
+ left:30px;
+ border-style:solid;
+ border-radius: 15px;
+ border-width: 1px;
+ border-color: orangered;
+
+}
+
+.books-div-header{
+  color: black;
+  margin: 20px auto 30px 60px;
+  /* margin-top: 20px;
+  margin-left: 60px;
+  margin-bottom: 50px; */
+}
+
+/* .col-2{
+  width:15%;
+  position: relative;
+  left: 125px;
+} */
+
+.carousel-control-prev,.carousel-control-next{
+  width: 5%;
+  position: absolute;
+  bottom: 20px;
+}
+
+.item-1{
+  text-align: center;
+
+  width:15%;
+  position: relative;
+  left: 125px;
+
+}
+.item-2,.item-3,.item-4,.item-5{
+  margin-left: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+
+  width:15%;
+  position: relative;
+  left: 125px;
+}
+
+.book-description{
+  text-align: center;
+  color:black;
+  line-height: 1;
+  margin-top: 10px;
+}
+
+.carousel-img{
+  width: 75%;
+
+}
+
+/* .banner-img{
+  width: 100%;
+} */
+
+.banner-row{
+  margin-top: 20px;
+}
+
+
+.banner-col-l{
+  width: 50%;
+  margin-left: 20px;
+}
+.banner-col-r,.banner-col-m{
+   width: 23%;
+
+}
+
+.banner-col-l{
+   position: relative;
+   left: 20px;
+
+}
+
+.banner-img{
+  border: 2px solid orangered;
+  border-radius: 19px;
+}
+
+.banner-row-bottom{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.banner-col-bottom-l,.banner-col-bottom-m{
+  width:23%;
+}
+
+.banner-col-bottom-l{
+  margin-left: 40px;
+}
+
+.banner-col-bottom-r{
+  position: relative;
+  left:30px;
+}
+
+.top-sellers-l{
+  margin-left: 100px;
+
+}
+
+
+
+.deals-col{
+  margin-top: 30px;
+  margin-left: 50px;
+  text-align: center;
+  margin-bottom: 30px;
+  border-right: thin solid #e5e7eb;
+
+}
+
+.deals-header-h2{
+  margin-bottom: 50px;
+}
+
+.deals-header-h5,.deals-header-h6{
+  margin-bottom: 40px;
+}
+
+.deals-header-h5,.deals-header-h6,.deals-header-h2{
+color:black;
+}
+
+
+.carousel-weekly{
+  width: 75%;
+  position: relative;
+  left: 300px;
+
+}
+
+.carousel-img-weekly{
+  width:79%;
+}
+
+.item-1-weekly,.item-2-weekly,.item-3-weekly,.item-4-weekly{
+  text-align: center;
+
+}
+
+/* .item-1-weekly{
+  margin-left: 5px;
+} */
+
+.row-weekly{
+  width: 100%;
+  position: relative;
+  /* left: 100px; */
+
+}
+
+#carouselExampleweekly{
+  width: 95%;
+  position: relative;
+  left: 30px;
+  margin-top: 70px
+}
+
+/* .prev-weekly{
+  position: relative;
+  right: 20px;
+} */
+
+.deals-week-card{
+  background-color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  color:#e5e7eb;
+
+}
+
+.weekly-deals-info-l{
+  width: 30%;
+}
+
+.weekly-deals-info-r{
+  width:70%;
+}
+
+
+#carouselExampleweeklyfeaturedauthor{
+  width: 95%;
+  position: relative;
+  left: 30px;
+  margin-top: 70px
+}
+
+.featured-author-image{
+  width: 75px;
+}
+
+.featured-author-header{
+  margin-bottom: 20px;
+ color: black;
+}
+
+.e-gift-header,.clearance-header,.featured-authors-header{
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+}
+
+.e-gift-hr,.clearance-hr,.featured-author-hr{
+  width: 500px;
+  border-style: solid none none none;
+  border-width: thick;
+  border-color: orangered;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.e-gift-para,.clearance-para{
+  width: 40%;
+  margin: auto;
+ text-align: center;
+ color: black;
+ margin-bottom: 20px;
+}
+
+
+.featured-author1-img,.featured-author2-img,.featured-author3-img,.featured-author4-img,.featured-author5-img{
+  width: 150px;border-radius: 100px;margin: 0;
+  border:solid orangered;
+}
+
+.featured-author-col-1{
+  margin-left: 120px;
+}
+
+.featured-author-col{
+  margin-bottom: 40px;
+}
+
+.benefits-img{
+width: 75%;
+margin-top: 20px;
+border-radius: 800px;
+margin-bottom: 20px;
+border-color: #d7433c;
+border: solid orangered ;
+}
+
+.benefits-img-2{
+  position: relative;
+  left: 60px;
+}
+
+.benefits-img-1{
+  position: relative;
+  left: 90px;
+}
+
+.benefits-img-3{
+  position: relative;
+  left: 20px;
+}
+
+.back-to-top-header{
+  text-align: center;
+  color: #e5e7eb;
+  margin: 10px auto 10px auto;
+
+
+}
+
+.back-to-top-div{
+  margin-top: 60px;
+  background-color: #599f94;
+  border-top: solid;
+  border-bottom: solid ;
+}
+
+.footer-div{
+  background-color: #e5e7eb;
+  
+  border-top: solid orangered;
+  /* text-align: center; */
+}
+
+.footer-headings{
+  color: black;
+  text-align: center;
+
+}
+
+.footer-link{
+  color: black;
+  text-decoration: none;
+
+
+}
+
+.footer-col{
+  margin-top: 50px;
+width: 15%;
+position: relative;
+left: 210px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.footer-list{
+  list-style-type:none;
+/* width: 50%; */
+}
+.footer-li{
+  margin-bottom: 5px;
+  /* width: 50%; */
+  /* text-align: center; */
+
+}
+
+.footer-col-2{
+  margin-left: 50px;
+}
+.footer-col-4{
+  margin-left: 30px;
+}
+
+.footer-col-3{
+ margin-left: 10px;
+}
+
+.footer-headings{
+  font-size: 25px;
+}
+
+.footer-headings-4{
+  /* position: relative; */
+  /* right: 20px; */
+ 
+  margin-left:30px
+}
+
+.footer-headings-3{
+  /* position: relative;
+  right: 35px; */
+  
+  margin-left: 35px;
+}
+
+.footer-headings-1{
+  /* margin-left: 20px; */
+}
+
+.footer-li-1,.footer-li-2{
+  position: relative;
+  right: 20px;
+}
+
+.footer-row{
+  margin-right:0px;
+}
+@media only screen and (max-width: 320px) {
+
+  }
+
+
+
+
+  /* form {
+    /* This bit sets up the horizontal layout */
+    display:flex;
+    flex-direction:row;
+    width: 500px;
+    height: 40px;
+    /* This bit draws the box around it */
+    border:1px solid grey;
+
+    /* I've used padding so you can see the edges of the elements. */
+    padding:2px;
+
+
+  } */
+
+  .input-field {
+    /* Tell the input to use all the available space */
+    flex-grow:2;
+    /* And hide the input's outline, so the form looks like the outline */
+    border:none;
+    width: 500px;
+
+
+  }
+
+  input:focus {
+    /* removing the input focus blue box. Put this on the form if you like. */
+    outline: none;
+  }
+
+  .btn-account,.btn-login {
+    /* Just a little styling to make it pretty */
+    border:0px solid blue;
+    
+    color:white;
+
+  }
+
+
+  .input-container{
+    width: 600px;
+    height: 35px ;
+    border: 1px solid #a9a9a9;
+    display: inline-block;
+    margin-top: 20px;
+}
+.input-container input:focus, .input-container input:active {
+    outline: none;
+}
+.input-container input {
+    /* width: 80%; */
+
+    border: none;
+}
+
+.input-container,.input-button {
+    float: right;
+    height: 35px;
+}
+
+.input-button{
+  background-color: black;
+  width: 40px;
+}
+
+.input-field{
+  width: 555px;
+  height: 30px;
+  padding-left: 20px;
+}
+
+.btn-login{
+  -webkit-border-radius: 3;
+  margin-top: 20px;
+  margin-left: 40px;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 15px;
+  background: orangered;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+
+}
+
+.btn-login:hover {
+  background: orangered;
+  text-decoration: none;
+   color: black;
+}
+
+.user-cart{
+  font-size: 20px;
+  margin-right: 10px;
+
+  background-color: orangered  ;
+}
+
+.user-cart:hover{
+  color: black;
+}
+
+input[type=text]:focus{
+  height: 35px;
+border: solid orangered 3px ;
+}
+
+
+.modal-headings-1,.modal-headings-4{
+  margin: auto;
+  margin-left: 150px;
+}
+
+.modal-headings-3{
+  margin-left: 190px;
+}
+
+.forgotpassword-link,.signup-link,.return-home-page-link,.login-link-modal-bottom{
+  text-decoration: none;
+  margin: auto;
+  }
+
+  .forgotpassword-link:hover,.signup-link:hover,.return-home-page-link:hover,.login-link-modal-bottom:hover{
+  text-decoration: underline;
+    }
+
+.send-link-button,.signup-button,.verify-button,.login-button{
+
+  margin: auto;
+}
+
+.send-link-button,.login-button,.modal-headings-4{
+  display: block;
+}
+
+.no-acc-p,.have-an-acc-p{
+  margin: auto;
+}
+
+.send-link-button{
+  margin-top: 10px;
+}
+
+.signup-button{
+margin-left: 190px;
+}
+
+.modal-header{
+  background-color: black;
+  color: white;
+}
+
+
+h8
+{
+    font-size: small;
+    text-align: center;
+    align-items: center;
+    display: flex;
+}
+/* Style all font awesome icons */
+
+  
+  /* Add a hover effect if you want */
+  .faa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 17px;
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-linkedin {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    background: #007bb5;
+    color: white;
+    margin-right: 180px;
+  }
+  .fa-google {
+      text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    background: #dd4b39;
+    color: white;
+  }
+  
+ 
+    /* contact us */
+ .contact-us-div{
+  text-align: center;
+  margin-top: 60px;
+}
+
+
+
+
+
+
+.contact-us-buttons{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.contact-form-container{
+  display: grid;
+  position: relative;
+  left:25%;
+  grid-template-columns: 1fr;
+  width: 50%;
+  text-align: center;
+}
+
+.contact-form-container > h5{
+  grid-column: 1;
+  grid-row: 1;
+
+}
+
+.contact-form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.name-input{
+  grid-column: 1;
+  grid-row: 2;
+
+}
+
+.name-input:active{
+  border: gray;
+}
+
+.name-input:focus{
+  border: gray;
+}
+
+.name-label{
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.mail-input{
+  grid-column: 1;
+  grid-row: 4;
+}
+
+.mail-label{
+  grid-column: 1;
+  grid-row: 3;
+}
+
+.phone-input{
+  grid-column: 1;
+  grid-row: 6;
+}
+
+.phone-label{
+  grid-column: 1;
+  grid-row: 5;
+}
+
+.message-area{
+  grid-column: 2;
+  grid-row: 2/7;
+}
+
+.message-label{
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.form-submit-button{
+  grid-column: 1/ span 2;
+  grid-row: 8;
+}
+
+.contact-form-container > form >label{
+  margin-top: 30px;
+
+}
+
+.contact-form-container > form > input{
+  width: 50%;
+}

@@ -1,0 +1,194 @@
+@media (max-width:769px){
+    .dropdown-bar{
+        display: none;
+    }
+    input[type=search]{
+        width: 226.34px;
+        margin-top: 30px;
+        margin-left: -30px;
+    }
+    .search-btn{
+        width: 100px;
+    }
+    .logo{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .fa-user{
+        margin-top: 37px;
+        margin-right: 90px;
+    }
+    .fa-user,.fa-shopping-cart{
+        font-size: 18px;
+        margin-left: -70px;
+    }
+    .fa-user a,.fa-shopping-cart a{
+        margin-left: 5px;
+    }
+    .login,.cart{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .item-1,.item-2,.item-3,.item-4,.item-5{
+        left: 50px;
+    }
+   .banner-img1{
+       width: 300px;
+    }
+   .banner-img2,.banner-img3{
+    width: 150px;
+    }
+    .top-sellers-l{
+        width: 200px;
+    }
+    .e-card-content p{
+        width: 100%;
+    }
+    .clearance-store-content p{
+        width: 100%;
+    }
+    .featured-author1-img,.featured-author2-img,.featured-author3-img,.featured-author4-img,.featured-author5-img{
+        border-radius: 100px;
+        margin: 0;
+        margin-left: -40px;
+        width: 100px !important;
+    }
+    .footer-col-1{
+        margin-left: -100px;
+    }
+    .footer-list{
+        margin-left: 0px !important;
+        padding-left: 0px;
+    }
+    .footer-headings-1,.footer-headings-2,.footer-headings-3,.footer-headings-4{
+       
+        font-size: 15px;
+    }
+    .footer-headings-1,.footer-headings-2{
+        margin-left: -50px;
+    }
+}
+@media (max-width:426px){
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+    input[type=search]{
+        width: 126.34px;
+        height: 25px;
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    .search-btn{
+        width: 70px;
+        height: 25px;
+        font-size: 12px;
+    }
+    .fa-user,.fa-shopping-cart{
+        font-size: 12px;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    .fa-user a,.fa-shopping-cart a{
+        margin-left: 5px;
+    }
+    .login,.cart{
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .item-1,.item-2,.item-3,.item-4,.item-5{
+        left: 70px;
+    }
+   .banner-img1{
+       width: 120px;
+    }
+   .banner-img2,.banner-img3{
+    width: 80px;
+    }
+    .banner-col-r,.banner-col-m{
+        margin-left: -30px;
+        margin-right: 25px;
+    }
+    .banner-col-l{
+        margin-left: 10px;
+    }
+    .row-weekly-main{
+        display: flex;
+        flex-direction: column;
+    }
+    .weekly-deals-info-l{
+        width: 100%;
+    }
+    .deals-week-card{
+        margin-left: -20px;
+    }
+    .weekly-deals-info-r{
+        width: 100%;
+    }
+    .e-gift-hr,.clearance-hr,.featured-author-hr{
+        width: 100%;
+    }
+    .featured-author1-img,.featured-author2-img,.featured-author3-img,.featured-author4-img,.featured-author5-img{
+        border-radius: 100px;
+        margin: 0;
+        margin-left: -70px;
+        width: 60px !important;
+    }
+    .featured-author5-img{
+        display: none;
+    }
+    .benefits-img{
+        margin-left: -30px;
+    }
+    .footer-col-1{
+        margin-left: -150px;
+    }
+    .footer-col-2{
+        margin-left: 30px;
+        
+    }
+    .footer-col-3{
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    .carousel-inner,.books-card,.big-card,.books-card-weekly,.top-sellers-card,.e-gift-card,.clearance-card,.featured-authors-card,.benefits-card{
+        margin-left: -10px;
+    }
+    .back-to-top-div,.footer-div{
+        margin-left: 15px;
+    }
+}
+@media (max-width:426px){
+    input[type=search]{
+        width: 126.34px;
+        height: 20px;
+        margin-top: 30px;
+        margin-left: -20px;
+    }
+    .search-btn{
+        width: 50px;
+        height: 20px;
+        font-size: 8px;
+    }
+    .fa-user,.fa-shopping-cart{
+        font-size: 10px;
+        margin-left: 0px;
+        margin-right: 20px;
+    }
+    .fa-user a,.fa-shopping-cart a{
+        margin-left: 5px;
+    }
+    .login,.cart{
+        font-size: 8px;
+        margin-left: 0px;
+    }
+    .banner-img1{
+        margin-left: -25px;
+    }
+
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-right: 90px;
+    }
+}

@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Rent Mitro-Final</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="assets\CSS\style.css">
+
+
+</head>
+
+<body>
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="fa fas fa-chevron-up"></i></button>
+    <!--Header Start-->
+    <div class="header-div">
+        <div class="row" id="top"style="padding-left:0px;padding-right:0px;margin-right:0px;margin-left:0px;">
+            <div class="col-lg-3" style="padding-right:0px;margin-top: 0px;">
+             <a href="index.html"><img src="assets\img\rmlogotranparent.png" class="logo" ></a>
+            </div>
+            <div class="col-lg-6 d-lg-flex justify-content-lg-center align-items-lg-center" style="padding-right:0px;width:47%;">
+              <div class="input-container">
+                <input type="text" class="input-field" placeholder="Search by title, author or ISBN here..."/>
+                <button class="input-button"><i class="fa fas fa-search"></i></button>
+            </div>
+
+
+            </div>
+            <div class="col-lg-3 d-lg-flex justify-content-lg-center align-items-lg-center" style="padding-right:0px;">
+
+                <a href=""><button type="button" class="btn-account"><i class="fa fas fa-user-circle user-icon" ;></i>Account</button></a>
+                <a href="" style="text-align: center;"><button type="button" class="btn-login"><i class="fa fas fa-shopping-cart user-cart"></i>Cart</button></a>
+            </div>
+        </div>
+    </div>
+    <!--Header End-->
+    <!--Dropdown Bar Start-->
+    <div class="d-lg-flex justify-content-lg-center align-items-xl-center dropdown-bar">
+        <div class="dropdown" >
+            <button class="btn btn-primary dropdown-toggle" style="color: white;margin-left: 20px;"  aria-expanded="false" data-toggle="dropdown" type="button">Exams</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">First Item</a>
+                <a class="dropdown-item" href="#">Second Item</a>
+                <a class="dropdown-item" href="#">Third Item</a>
+            </div>
+        </div>
+        <div class="dropdown" >
+            <button class="btn btn-primary dropdown-toggle" style="color: white;" aria-expanded="false" data-toggle="dropdown" type="button">Academic</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">First Item</a>
+                <a class="dropdown-item" href="#">Second Item</a>
+                <a class="dropdown-item" href="#">Third Item</a>
+            </div>
+        </div>
+        <div class="dropdown" >
+            <button class="btn btn-primary dropdown-toggle" style="color: white;" aria-expanded="false" data-toggle="dropdown" type="button">Fiction</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">First Item</a>
+                <a class="dropdown-item" href="#">Second Item</a>
+                <a class="dropdown-item" href="#">Third Item</a>
+            </div>
+        </div>
+        <div class="dropdown" >
+            <button class="btn btn-primary dropdown-toggle" style="color: white;" aria-expanded="false" data-toggle="dropdown" type="button">Non-Fiction</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">First Item</a>
+                <a class="dropdown-item" href="#">Second Item</a>
+                <a class="dropdown-item" href="#">Third Item</a>
+            </div>
+        </div>
+        <div class="dropdown" >
+            <button class="btn btn-primary dropdown-toggle" style="color: white;" aria-expanded="false" data-toggle="dropdown" type="button">Business</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">First Item</a>
+                <a class="dropdown-item" href="#">Second Item</a>
+                <a class="dropdown-item" href="#">Third Item</a>
+            </div>
+        </div>
+        <div class="dropdown" >
+            <button class="btn btn-primary dropdown-toggle" style="color: white;" aria-expanded="false" data-toggle="dropdown" type="button">Children</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">First Item</a>
+                <a class="dropdown-item" href="#">Second Item</a>
+                <a class="dropdown-item" href="#">Third Item</a>
+            </div>
+        </div>
+        <div class="dropdown" >
+            <button class="btn btn-primary dropdown-toggle" style="color: white;" aria-expanded="false" data-toggle="dropdown" type="button">Regional</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">First Item</a>
+                <a class="dropdown-item" href="#">Second Item</a>
+                <a class="dropdown-item" href="#">Third Item</a>
+            </div>
+        </div>
+        <div class="dropdown" >
+            <button class="btn btn-primary dropdown-toggle" style="color: white;" aria-expanded="false" data-toggle="dropdown" type="button">Spiritual</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">First Item</a>
+                <a class="dropdown-item" href="#">Second Item</a>
+                <a class="dropdown-item" href="#">Third Item</a>
+            </div>
+        </div>
+    </div>
+    <!--Dropdown Bar End-->
+    <!-- <div style="margin-top: 10px;">
+        <h1 class="text-effect" style="text-align: center;font-size: 20px;font-weight: 800;font-style: oblique;">Sign In for a better experience !</h1>
+    </div> -->
+    <!--Carousel Start-->
+    <!-- <div style="margin-top: 10px;" class="carousel-div">
+        <div class="carousel slide" data-interval="10000" data-ride="carousel" id="carousel-1">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img class="w-100 d-block" src="assets/img/home-slide-1-1920x750.jpg?h=81bb0e0ad66ab0b4fd9c13477dbe7ce6">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img class="w-100 d-block" src="assets/img/home-slide-2-1920x750.jpg?h=e9d8030296362df12f583895083c92d1">
+                </div>
+                <div class="carousel-item" >
+                    <img class="w-100 d-block" src="assets/img/home-slide-3-1920x750.jpg?h=fc129bbcb0e172bb7e86b88222bbbb9e">
+                </div>
+            </div>
+            <div>
+                <!-- Start: Previous -->
+                <!-- <a class="carousel-control-prev" href="#carousel-1" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <!-- End: Previous -->
+                <!-- Start: Next -->
+                <!-- <a class="carousel-control-next" href="#carousel-1" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                    <span class="sr-only">Next</span>
+                </a> -->
+                <!-- End: Next -->
+            <!-- </div>
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-1" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-1" data-slide-to="1"></li>
+                <li data-target="#carousel-1" data-slide-to="2"></li>
+            </ol>
+        </div>
+    </div>  -->
+    <!--Carousel End-->
+
+
+
+
+
+
+
+
+
+
+    <div id="carouselExampleIndicators" class="carousel slide carousel-div" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <!-- <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button> -->
+      </div>
+      <div class="carousel-inner " >
+
+        <div class="carousel-item active">
+          <img src="assets/img/main-carousel-img-2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="assets/img/main-carousel-img-3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+
+
+    <!-- Books Card Div -1 Start -->
+    <div id="div-1" class="books-card" style="margin-top:30px;">
+        <h2 class="books-div-header">Rent Mitro Exclusive Deals</h2>
+
+
+    <!-- Books Card Carousel Start-->
+    <div id="carouselExampleControls" class="carousel slide" data-interval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active" >
+                <div class="row">
+                  <div class="col-2 item-1"><img class="carousel-img" src="assets/img/book-img.jpg" alt=""> <p class="book-description">Jon Meacham's His Truth is marching on</p> </div>
+                  <div class="col-2 item-2"><img class="carousel-img" src="assets/img/book-img2.jpg" alt=""><p class="book-description">The Four Winds</p></div>
+                  <div class="col-2 item-3"><img class="carousel-img" src="assets/img/book-img3.jpg" alt=""><p class="book-description">A Promising Land</p></div>
+                  <div class="col-2 item-4"><img class="carousel-img" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                  <div class="col-2 item-5"><img class="carousel-img" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-2 item-1"><img class="carousel-img" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-2"><img class="carousel-img" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-3"><img class="carousel-img" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-4"><img class="carousel-img" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-5"><img class="carousel-img" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-2 item-1"><img class="carousel-img" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-2"><img class="carousel-img" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-3"><img class="carousel-img" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-4"><img class="carousel-img" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-5"><img class="carousel-img" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+              </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Books Card Carousel End-->
+    </div>
+    <!-- Books Card Div -1 - End  -->
+
+    <!-- Books Card Div -1 Start -->
+    <div class="books-card">
+        <h2 class="books-div-header">Just In Store</h2>
+
+
+    <!-- Books Card Carousel Start-->
+    <div id="carouselExample" class="carousel slide" data-interval="false">
+        <div class="carousel-inner">
+            <div class="carousel-item active" >
+                <div class="row">
+                  <div class="col-2 item-1"><img class="carousel-img" src="assets/img/book-img.jpg" alt=""> <p class="book-description">Jon Meacham's His Truth is marching on</p> </div>
+                  <div class="col-2 item-2"><img class="carousel-img" src="assets/img/book-img2.jpg" alt=""><p class="book-description">The Four Winds</p></div>
+                  <div class="col-2 item-3"><img class="carousel-img" src="assets/img/book-img3.jpg" alt=""><p class="book-description">A Promising Land</p></div>
+                  <div class="col-2 item-4"><img class="carousel-img" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                  <div class="col-2 item-5"><img class="carousel-img" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+
+                </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-2 item-1"><img class="carousel-img" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-2"><img class="carousel-img" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-3"><img class="carousel-img" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-4"><img class="carousel-img" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-5"><img class="carousel-img" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-2 item-1"><img class="carousel-img" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-2"><img class="carousel-img" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-3"><img class="carousel-img" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-4"><img class="carousel-img" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                <div class="col-2 item-5"><img class="carousel-img" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+              </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"  data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- Books Card Carousel End-->
+    </div>
+    <!-- Books Card Div -1 - End  -->
+
+    <!-- Big Card Start-->
+    <div class="big-card" style="margin-top:30px">
+      <div class="row banner-row">
+        <div class="col-4 banner-col-l"><img class="banner-img" src="assets/img/banner1.webp" alt=""></div>
+        <div class="col-4 banner-col-m"><img class="banner-img" src="assets/img/banner-2.webp" alt=""></div>
+        <div class="col-4 banner-col-r"><img class="banner-img" src="assets/img/banner-3.webp" alt=""></div>
+      </div>
+      <div class="row banner-row-bottom">
+        <div class="col-4 banner-col-bottom-l"><img class="banner-img" src="assets/img/banner-3.webp" alt=""></div>
+        <div class="col-4 banner-col-bottom-m"><img class="banner-img" src="assets/img/banner-2.webp" alt=""></div>
+        <div class="col-4 banner-col-bottom-r"><img class="banner-img" src="assets/img/banner1.webp" alt=""></div>
+      </div>
+    </div>
+    <!-- Big Card End-->
+
+    <!-- Deals of the week Div Start-->
+    <!-- <div class="deals-week-card">
+
+        <h2 class="deals-header-h2">Deals of the Work</h2>
+        <h5 class="deals-header-h5">1 Day ,12:00:29</h5>
+        <h6 class="deals-header-h6">Deal of the week</h6>
+        <p style="color:#e5e7eb;">Here are some of our handpicked titles offerred at a special price for a limited period. Hurry, the deals run out soon.</p>
+
+    </div> -->
+    <!-- Deals of the week Div End -->
+
+<!-- Weekly Deals-->
+    <div class="books-card-weekly">
+    <div class="row row-weekly-main">
+    <div class="col-6 weekly-deals-info-l">
+      <div class="deals-week-card">
+
+          <h2 class="deals-header-h2" style="margin-top:20px;">Deals of the Work</h2>
+          <h5 class="deals-header-h5">1 Day ,12:00:29</h5>
+          <h6 class="deals-header-h6">Don't miss these deals</h6>
+          <p style="color:black; line-height: 1;width:75%;margin-left:40px;">Here are some of our handpicked titles offerred at a special price for a limited period. Hurry, the deals run out soon.</p>
+
+      </div>
+    </div>
+
+    <div class="col-6 weekly-deals-info-r">
+      <div id="carouselExampleweekly" class="carousel slide carousel-weekly" data-interval="false">
+          <div class="carousel-inner">
+              <div class="carousel-item active" >
+                  <div class="row row-weekly">
+                    <div class="col-3 item-1-weekly"><img class="carousel-img-weekly" src="assets/img/book-img.jpg" alt=""> <p class="book-description">Jon Meacham's His Truth is marching on</p> </div>
+                    <div class="col-3 item-2-weekly"><img class="carousel-img-weekly" src="assets/img/book-img2.jpg" alt=""><p class="book-description">The Four Winds</p></div>
+                    <div class="col-3 item-3-weekly"><img class="carousel-img-weekly" src="assets/img/book-img3.jpg" alt=""><p class="book-description">A Promising Land</p></div>
+                    <div class="col-3 item-4-weekly"><img class="carousel-img-weekly" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row row-weekly">
+                  <div class="col-3 item-1-weekly"><img class="carousel-img-weekly" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                  <div class="col-3 item-2-weekly"><img class="carousel-img-weekly" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                  <div class="col-3 item-3-weekly"><img class="carousel-img-weekly" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                  <div class="col-3 item-4-weekly"><img class="carousel-img-weekly" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row row-weekly">
+
+
+                  <div class="col-3 item-1-weekly"><img class="carousel-img-weekly" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                  <div class="col-3 item-2-weekly"><img class="carousel-img-weekly" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                  <div class="col-3 item-3-weekly"><img class="carousel-img-weekly" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+                  <div class="col-3 item-4-weekly"><img class="carousel-img-weekly" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+
+                </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev prev-weekly" type="button" data-bs-target="#carouselExampleweekly"  data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true" style="position:relative;right:30px"></span>
+          <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleweekly"  data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </div>
+    </div>
+
+
+    <!-- Books Card Carousel Start-->
+
+    <!-- Books Card Carousel End-->
+    </div>
+
+<!-- Weekly Deals End-->
+
+
+<!-- Today's Featured Author-->
+<div class="books-card-weekly" >
+<div class="row row-weekly-main">
+<div class="col-6 weekly-deals-info-l">
+  <div class="deals-week-card">
+
+      <h2 class="featured-author-header" style="margin-top:20px;">Today's Featured Author</h2>
+      <img src="assets/img/author.png" alt="" style="margin-bottom:20px;">
+      <h4 style="margin-bottom:40px;color:black">Sudha Joshi</h4>
+      <!-- <h6 class="deals-header-h6">Deal of the week</h6>
+      <p style="color:#e5e7eb; line-height: 1;width:75%;margin-left:40px;">Here are some of our handpicked titles offerred at a special price for a limited period. Hurry, the deals run out soon.</p> -->
+
+  </div>
+</div>
+
+<div class="col-6 weekly-deals-info-r">
+  <div id="carouselExampleweeklyfeaturedauthor" class="carousel slide carousel-weekly" data-interval="false">
+      <div class="carousel-inner">
+          <div class="carousel-item active" >
+              <div class="row row-weekly">
+                <div class="col-3 item-1-weekly"><img class="carousel-img-weekly" src="assets/img/book-img.jpg" alt=""> <p class="book-description">Jon Meacham's His Truth is marching on</p> </div>
+                <div class="col-3 item-2-weekly"><img class="carousel-img-weekly" src="assets/img/book-img2.jpg" alt=""><p class="book-description">The Four Winds</p></div>
+                <div class="col-3 item-3-weekly"><img class="carousel-img-weekly" src="assets/img/book-img3.jpg" alt=""><p class="book-description">A Promising Land</p></div>
+                <div class="col-3 item-4-weekly"><img class="carousel-img-weekly" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-weekly">
+              <div class="col-3 item-1-weekly"><img class="carousel-img-weekly" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+              <div class="col-3 item-2-weekly"><img class="carousel-img-weekly" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+              <div class="col-3 item-3-weekly"><img class="carousel-img-weekly" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+              <div class="col-3 item-4-weekly"><img class="carousel-img-weekly" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row row-weekly">
+
+
+              <div class="col-3 item-1-weekly"><img class="carousel-img-weekly" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+              <div class="col-3 item-2-weekly"><img class="carousel-img-weekly" src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+              <div class="col-3 item-3-weekly"><img class="carousel-img-weekly" src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+              <div class="col-3 item-4-weekly"><img class="carousel-img-weekly" src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+
+            </div>
+          </div>
+      </div>
+      <button class="carousel-control-prev prev-weekly" type="button" data-bs-target="#carouselExampleweeklyfeaturedauthor"  data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true" style="position:relative;right:30px"></span>
+      <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleweeklyfeaturedauthor"  data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+      </button>
+  </div>
+</div>
+</div>
+
+
+<!-- Books Card Carousel Start-->
+
+<!-- Books Card Carousel End-->
+</div>
+<!-- Today's featured author end-->
+
+  <!-- Top Sellers Div Start-->
+    <div class="top-sellers-card" >
+      <h2 class="books-div-header">Top Sellers</h2>
+      <div class="row">
+        <div class="col-2 top-sellers-l"><img src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+        <div class="col-2"><img src="assets/img/book-img.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+        <div class="col-2"><img src="assets/img/book-img2.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+        <div class="col-2"><img src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+        <div class="col-2"><img src="assets/img/book-img3.jpg" alt=""><p class="book-description">Jon Meacham's His Truth is marching on</p></div>
+      </div>
+    </div>
+
+    <!-- Top Sellers Div End-->
+
+<!-- Rent-Mitro E-Gift Card-->
+ <div class="e-gift-card">
+   <h2 class="e-gift-header">Rent Mitro E-Gift Card</h2>
+   <hr class="e-gift-hr">
+   <p class="e-gift-para">Gift our customized gift cards to your loved ones.
+      These Gift Cards can be redeemed in our RentMitro app and on RentMitro.com</p>
+
+ </div>
+<!-- Rent Mitro E-Gift Card End-->
+
+<!-- Clearance Store-->
+<div class="clearance-card">
+  <h2 class="clearance-header">Clearance Store</h2>
+  <hr class="clearance-hr">
+  <p class="clearance-para">Upto 60% off !</p>
+
+</div>
+
+<!-- Clearance Store End-->
+
+<!-- Featured authors Card-->
+<div class="featured-authors-card">
+  <h2 class="featured-authors-header">Featured Authors</h2>
+  <hr class="featured-author-hr" style="margin-bottom:60px;">
+  <div class="row">
+    <div class="col-2 featured-author-col featured-author-col-1"><img class="featured-author1-img" src="assets/img/author@2x.jpg" alt=""></div>
+    <div class="col-2 featured-author-col"><img class="featured-author2-img" src="assets/img/author@2x.jpg" alt=""></div>
+    <div class="col-2 featured-author-col"><img class="featured-author3-img" src="assets/img/author@2x.jpg" alt=""></div>
+    <div class="col-2 featured-author-col"><img class="featured-author4-img" src="assets/img/author@2x.jpg" alt=""></div>
+    <div class="col-2 featured-author-col"><img class="featured-author5-img" src="assets/img/author@2x.jpg" alt=""></div>
+  </div>
+  <h2 class="featured-authors-header">Featured Series</h2>
+  <hr class="featured-author-hr" style="margin-bottom:60px;">
+  <div class="row">
+    <div class="col-2 featured-author-col featured-author-col-1"><img class="featured-author1-img" src="assets/img/harry-potter.jpg" alt=""></div>
+    <div class="col-2 featured-author-col"><img class="featured-author2-img" src="assets/img/harry-potter.jpg" alt=""></div>
+    <div class="col-2 featured-author-col"><img class="featured-author3-img" src="assets/img/harry-potter.jpg" alt=""></div>
+    <div class="col-2 featured-author-col"><img class="featured-author4-img" src="assets/img/harry-potter.jpg" alt=""></div>
+    <div class="col-2 featured-author-col"><img class="featured-author5-img" src="assets/img/harry-potter.jpg" alt=""></div>
+  </div>
+</div>
+<!-- Featurd author card end-->
+
+<!-- Benefits Card-->
+<div class="benefits-card">
+  <h2 class="featured-authors-header">Benefits</h2>
+    <hr class="featured-author-hr" style="margin-bottom:20px;">
+  <div class="row">
+    <div class="col-4"><img class="benefits-img benefits-img-1" src="assets/img/free-delivery.png" alt=""></div>
+    <div class="col-4"><img class="benefits-img benefits-img-2" src="assets/img/free-delivery.png" alt=""></div>
+    <div class="col-4"><img class="benefits-img benefits-img-3" src="assets/img/free-delivery.png" alt=""></div>
+
+  </div>
+
+</div>
+
+<!-- Benefits Card End-->
+
+
+<!-- back to top div-->
+<!-- <div class="back-to-top-div">
+
+<a href="#top" style="text-decoration:none;"><h3 class="back-to-top-header">Back To Top</h3></a>
+</div> -->
+<!-- back tot top div end-->
+
+<!-- footer-div-->
+<div class="footer-div" style="margin-right:0px;margin-top: 30px;">
+  <div class="row footer-row" >
+    <div class="col-3 footer-col footer-col-1">
+      <h4 class="footer-headings footer-headings-1">Get to know us</h4>
+      <ul class="footer-list">
+        <li class="footer-li-1"><a href="#" class="footer-link footer-link-1">About Us</a></li>
+        <li class="footer-li-1"><a href="#" class="footer-link footer-link-2">Careers</a></li>
+        <li class="footer-li-1"><a href="blog.html" class="footer-link footer-link-3">Blog</a></li>
+        <li class="footer-li-1"><a href="contact-us.html" class="footer-link footer-link-4">Contact Us</a></li>
+      </ul>
+    </div>
+    <div class="col-3 footer-col footer-col-2">
+      <h4 class="footer-headings footer-headings-2">Connect with us</h4>
+      <ul class="footer-list">
+        <li class="footer-li-2"><a href="#" class="footer-link footer-link-1">Twitter</a></li>
+        <li class="footer-li-2"> <a href="#" class="footer-link footer-link-2">Facebook</a></li>
+        <li class="footer-li-2"><a href="#" class="footer-link footer-link-3">Instagram</a></li>
+      </ul>
+
+    </div>
+    <div class="col-3 footer-col footer-col-3">
+      <h4 class="footer-headings footer-headings-3">Help</h4>
+      <ul class="footer-list">
+        <li class="footer-li"><a href="#" class="footer-link footer-link-1">Payment</a></li>
+        <li class="footer-li"> <a href="#" class="footer-link footer-link-2">Shipping</a></li>
+        <li class="footer-li"><a href="#" class="footer-link footer-link-3">Return</a></li>
+          <li class="footer-li"><a href="#" class="footer-link footer-link-4">FAQ</a></li>
+      </ul>
+
+    </div>
+    <div class="col-3 footer-col footer-col-4">
+      <h4 class="footer-headings footer-headings-4">Policies</h4>
+      <ul class="footer-list">
+        <li class="footer-li"><a href="#" class="footer-link footer-link-1">Privacy Policy</a></li>
+        <li class="footer-li"> <a href="#" class="footer-link footer-link-2">Terms Of Use</a></li>
+        <li class="footer-li"><a href="#" class="footer-link footer-link-3">Secure Shopping</a></li>
+          <li class="footer-li"><a href="#" class="footer-link footer-link-4">Copyright Policy</a></li>
+      </ul>
+    </div>
+
+  </div>
+</div>
+<!-- footer-div-end-->
+
+<!-- Modal -1-->
+<div class="modal hide" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:hsl(171, 88%, 3%)">
+        <h5 class="modal-title modal-headings-1" id="staticBackdropLabel" style="color:white">Welcome Back &nbsp <i class="fa fa-university"></i></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color: white;"></button>
+      </div>
+      <div class="modal-body">
+        <form class="" action="index.html" method="post">
+
+    <div class="mb-3">
+      <label for="exampleInputEmail" class="form-label"><i class="fa fa-envelope"></i> &nbsp Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required placeholder="Enter your email">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label"><i class="fa fa-lock"></i> &nbsp Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1" required placeholder="Enter password">
+      <small> <a class="forgotpassword-link" href="#staticBackdrop-4">Forgot Password?</a> </small>
+    </div>
+    <button type="submit" id="in" class="btn btn-primary login-button" style="background-color:#051f1b">Login</button>
+  <h8> This site is protected by reCAPTHA Enterprises and the Google Privacy Policy Terms of Service apply. </h8>
+  </form>
+    </div>
+    <div class="modal-footer" id="faa">
+      <a href="#" id="faa" class="fa fa-facebook"></a>
+      <a href="#" id="faa" class="fa fa-google"></a>
+      <a href="#" id="faa" class="fa fa-linkedin"></a>
+</div>
+      <div class="modal-footer">
+
+      <p class="no-acc-p">Don't have an account? <a class="signup-link" href="#" >Sign Up</a> </p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Modal -2-->
+<div class="modal hide" id="staticBackdrop-2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel-2" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title modal-headings-2" id="staticBackdropLabel-2" style="background-color:#031f1a">Verify OTP</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form class="" action="index.html" method="post">
+          <label for="exampleOTP1" class="form-label" style="background-color:#09312b">Enter OTP</label>
+          <input type="text" class="form-control" id="exampleOTP1" aria-describedby="OTPHelp" placeholder="Enter the OTP sent on your registered email ." required>
+
+          </div>
+          <div class="modal-footer">
+
+        <button type="submit" id="in" class="btn btn-primary verify-button" style="background-color:#051614">Verify</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Modal -3-->
+<div class="modal hide" id="staticBackdrop-3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel-3" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:#031613">
+        <h5 class="modal-title modal-headings-3" id="staticBackdropLabel-3" style="color: white;">Signup &nbsp <i class="fa fa-sign-in"></i></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color: white;"></button>
+      </div>
+      <div class="modal-body">
+        <form class="" action="index.html" method="post">
+          <div class="mb-3 ">
+            <label for="exampleInputFullName" class="form-label"><i class="fa fa-user-circle-o"></i>&nbsp Full Name</label>
+            <input type="text" class="form-control" id="exampleInputFullName" required placeholder="Enter your full name">
+          </div>
+    <div class="mb-3">
+      <label for="exampleInputEmail-2" class="form-label"><i class="fa fa-envelope"></i>&nbsp Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail-2" aria-describedby="emailHelp" required placeholder="name@email.com">
+      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+    </div>
+    <div class="mb-3">
+
+      <label for="exampleInputPassword-2" class="form-label"><i class="fa fa-lock"></i>&nbsp Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword-2" required placeholder="Create password">
+        <small>Between 8 and 72 characters.</small>
+    </div>
+    
+    <div class="mb-3">
+      <label for="exampleInputPassword-2" class="form-label"><i class="fa fa-pencil-square"></i> &nbsp Confirm Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword-2" required placeholder="confirm password">
+    </div>
+
+
+    <button type="submit" id="in" class="btn btn-primary signup-button" style="background-color:#072521">Sign Up</button>
+
+    </form>
+    </div>
+    <div class="modal-footer" id="faa">
+      <a href="#" id="faa" class="fa fa-facebook"></a>
+      <a href="#" id="faa" class="fa fa-google"></a>
+      <a href="#" id="faa" class="fa fa-linkedin"></a>
+</div>
+      <div class="modal-footer">
+
+
+        <p class="have-an-acc-p">Already have an account? <a href="#" class="login-link-modal-bottom">Login</a> </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Modal -4 -->
+<div class="modal hide" id="staticBackdrop-4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel-4" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header" style="background-color:#03110f;" >
+        <h5 class="modal-title modal-headings-4" id="staticBackdropLabel-4" style="color: white;" >Forgot Password  &nbsp <i class="fa fa-pencil-square-o"></i></h5>
+        <!-- <small>Enter the email address you use on Coursera. We'll send you a link to reset your password.</small> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color: white;"></button>
+      </div>
+      <div class="modal-body">
+        <form class="" action="index.html" method="post">
+          <div class="">
+            <h8>Enter the email address you use to signup. We'll send you a link to reset your password.</h8> <br>
+      <label for="exampleInputForgotPass" class="form-label" style="margin-top:10px;"><i class="fa fa-envelope"></i> &nbsp Email </label>
+      <input type="email" class="form-control" id="exampleInputForgotPass" aria-describedby="emailHelp-2" required placeholder="name@email.com">
+
+    </div>
+    <button type="submit" id="in" class="btn btn-primary send-link-button" style="background-color:#051311">Send Link</button>
+    </form>
+      </div>
+      
+      <div class="modal-footer">
+
+       <a href="#" class="return-home-page-link">Return to login page</a>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
