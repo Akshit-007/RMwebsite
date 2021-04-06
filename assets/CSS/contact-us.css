@@ -623,7 +623,7 @@ textarea {
 
 
 
-.submit-button {
+.submit-button{
    border-radius: 0.8em;
    font-size: 0.8em;
    background-color: white;
@@ -632,6 +632,10 @@ textarea {
    width: 200px;
    margin: 2em 38% ;
    padding: 1em;
+   width:200px;
+   
+   
+   float:right;
 }
 
 .submit-button:hover {
