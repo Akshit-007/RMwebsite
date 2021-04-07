@@ -577,19 +577,19 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color: white;"></button>
       </div>
       <div class="modal-body">
-        <form class="" action="index.html" method="post">
+        <form class="" action="database/login.php" method="POST">
 
     <div class="mb-3">
       <label for="exampleInputEmail" class="form-label"><i class="fa fa-envelope"></i> &nbsp Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required placeholder="Enter your email">
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" required placeholder="Enter your email" name="email">
       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
     <div class="mb-3">
       <label for="exampleInputPassword1" class="form-label"><i class="fa fa-lock"></i> &nbsp Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1" required placeholder="Enter password">
+      <input type="password" class="form-control" id="exampleInputPassword1" required placeholder="Enter password" name="password1">
       <small> <a class="forgotpassword-link" href="#staticBackdrop-4">Forgot Password?</a> </small>
     </div>
-    <button type="submit" id="in" class="btn btn-primary login-button" style="background-color:#051f1b">Login</button>
+    <button type="submit" id="in" name="login" class="btn btn-primary login-button" style="background-color:#051f1b">Login</button>
   <h8> This site is protected by reCAPTHA Enterprises and the Google Privacy Policy Terms of Service apply. </h8>
   </form>
     </div>
@@ -647,30 +647,30 @@
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="background-color: white;"></button>
       </div>
       <div class="modal-body">
-        <form class="" action="index.html" method="post">
+        <form class="" action="database/signup.php" method="POST">
           <div class="mb-3 ">
             <label for="exampleInputFullName" class="form-label"><i class="fa fa-user-circle-o"></i>&nbsp Full Name</label>
-            <input type="text" class="form-control" id="exampleInputFullName" required placeholder="Enter your full name">
+            <input type="text" class="form-control" id="exampleInputFullName" required placeholder="Enter your full name" name="fullname">
           </div>
     <div class="mb-3">
       <label for="exampleInputEmail-2" class="form-label"><i class="fa fa-envelope"></i>&nbsp Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail-2" aria-describedby="emailHelp" required placeholder="name@email.com">
+      <input type="email" class="form-control" id="exampleInputEmail-2" aria-describedby="emailHelp" required placeholder="name@email.com" name="email">
       <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
     </div>
     <div class="mb-3">
 
       <label for="exampleInputPassword-2" class="form-label"><i class="fa fa-lock"></i>&nbsp Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword-2" required placeholder="Create password">
+      <input type="password" class="form-control" id="exampleInputPassword-2" required placeholder="Create password" name="password1">
         <small>Between 8 and 72 characters.</small>
     </div>
     
     <div class="mb-3">
       <label for="exampleInputPassword-2" class="form-label"><i class="fa fa-pencil-square"></i> &nbsp Confirm Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword-2" required placeholder="confirm password">
+      <input type="password" class="form-control" id="exampleInputPassword-2" required placeholder="confirm password" name="password2">
     </div>
 
 
-    <button type="submit" id="in" class="btn btn-primary signup-button" style="background-color:#072521">Sign Up</button>
+    <button type="submit" id="in" class="btn btn-primary signup-button" style="background-color:#072521" name="submit">Sign Up</button>
 
     </form>
     </div>
