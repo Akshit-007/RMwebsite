@@ -606,7 +606,7 @@ text-align: center;
 }
 
 .footer-headings-1{
-  /* margin-left: 20px; */
+  margin-left: 20px;
 }
 
 .footer-li-1,.footer-li-2{
@@ -626,18 +626,18 @@ text-align: center;
 
   /* form {
     /* This bit sets up the horizontal layout */
-    display:flex;
-    flex-direction:row;
+    /* display:flex; */
+    /* flex-direction:row;
     width: 500px;
-    height: 40px;
+    height: 40px; */
     /* This bit draws the box around it */
-    border:1px solid grey;
+    /* border:1px solid grey; */
 
     /* I've used padding so you can see the edges of the elements. */
-    padding:2px;
+    /* padding:2px;
 
 
-  } */
+  }  */
 
   .input-field {
     /* Tell the input to use all the available space */
