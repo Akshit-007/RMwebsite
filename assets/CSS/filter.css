@@ -1,0 +1,41 @@
+.filterLogo
+{
+    margin-left: 50px;
+}
+.filterHead
+{
+    margin-left: 10px;
+    font-size: 40px;
+}
+.mainFilter
+{
+    margin-top: -5px;
+    display: block;
+    list-style: none;
+    font-size: 30px;
+    background-color: turquoise;
+    padding-right: 30px;
+
+}
+.subFilter
+{
+    font-size: 20px;
+    color: white;
+    display:  block;
+    list-style: none;
+
+}
+.sbutton
+{
+    border:2px solid turquoise;
+    background-color: white;
+    height:50px;
+    width:100px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.sbutton:hover{
+    background-color: turquoise;
+    color: white;
+}
+

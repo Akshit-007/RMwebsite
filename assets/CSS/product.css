@@ -1,0 +1,21 @@
+ * {  margin: 0;  }
+
+        
+        .filter {
+            /* background-color: red; */
+            border: 2px solid grey;
+             height: 80vh;
+             margin-left: -1050px;
+             margin-right: 10px;
+        }
+        .products
+        {
+            background-color: whitesmoke;
+             height: 80vh;
+             width:70%;
+             position: absolute;
+            
+        }
+       
+
+      
